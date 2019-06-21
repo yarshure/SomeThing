@@ -14,17 +14,17 @@
 			<key>VPNType</key>
 			<string>VPN</string>
 			<key>VPNSubType</key>
-			<string>com.yarshure.Surf</string>
+			<string>com.yarshure.Surf4</string>
 			<key>UserDefinedName</key>
 			<string>yarshure</string>
 			<key>PayloadDescription</key>
 			<string>Configures VPN settings</string>
 			<key>PayloadDisplayName</key>
 			<string>VPN</string>
+			<key>VPNUUID</key>
+			<string>825886EA-BB00-4805-ADD6-1674C531669E</string>
 			<key>PayloadVersion</key>
 			<integer>1</integer>
-			<key>VPNUUID</key>
-			<string>83A8720B-2BD5-4B7E-921D-3D9E312B4ACD</string>
 			<key>VPN</key>
 			<dict>
 				<key>RemoteAddress</key>
@@ -36,7 +36,7 @@
 				<key>AuthPassword</key>
 				<string>abigt</string>
 				<key>ProviderBundleIdentifier</key>
-				<string>com.yarshure.Surf.AppProxy-iOS</string>
+				<string>com.yarshure.Surf4.AppProxy-iOS</string>
 				<key>OnDemandMatchAppEnabled</key>
 				<false/>
 			</dict>
@@ -3760,40 +3760,76 @@
 			</array>
 		</dict>
 		<dict>
+			<key>PayloadUUID</key>
+			<string>A959CFCB-BABF-4819-B2A6-41F95926AF78</string>
 			<key>PayloadType</key>
-			<string>com.apple.vpn.managed.applayer</string>
-			<key>VPNType</key>
-			<string>VPN</string>
-			<key>VPNSubType</key>
-			<string>com.yarshure.Surf</string>
-			<key>VPNUUID</key>
-			<string>825886EA-BB00-4805-ADD6-1674C531669E</string>
-			<key>VPN</key>
-			<dict>
-				<key>RemoteAddress</key>
-				<string>test.com</string>
-				<key>AuthenticationMethod</key>
-				<string>Password</string>
-				<key>AuthName</key>
-				<string>mrgumby</string>
-				<key>AuthPassword</key>
-				<string>opendoor</string>
-				<key>ProviderBundleIdentifier</key>
-				<string>com.yarshure.Surf.AppProxy-iOS</string>
-			</dict>
+			<string>com.apple.vpn.managed.appmapping</string>
+			<key>PayloadIdentifier</key>
+			<string>com.apple.vpn.managed.appmapping.663DE2E8-0B7D-46D7-B1AE-331985F4082B</string>
+			<key>PayloadDescription</key>
+			<string>Configures TestApp-macOS to use the per-app VPN connection.</string>
+			<key>PayloadDisplayName</key>
+			<string>Per-App VPN App Mappings</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>AppLayerVPNMapping</key>
+			<array>
+				<dict>
+					<key>VPNUUID</key>
+					<string>83A8720B-2BD5-4B7E-921D-3D9E312B4ACD</string>
+					<key>Identifier</key>
+					<string>com.atebits.Tweetie2</string>
+					<key>SigningIdentifier</key>
+					<string>com.atebits.Tweetie2</string>
+					<key>DesignatedRequirement</key>
+					<string>identifier &quot;com.atebits.Tweetie2&quot; and anchor apple generic</string>
+				</dict>
+				<dict>
+					<key>VPNUUID</key>
+					<string>83A8720B-2BD5-4B7E-921D-3D9E312B4ACD</string>
+					<key>Identifier</key>
+					<string>ph.telegra.Telegraph</string>
+					<key>SigningIdentifier</key>
+					<string>ph.telegra.Telegraph</string>
+					<key>DesignatedRequirement</key>
+					<string>identifier &quot;ph.telegra.Telegraph&quot; and anchor apple generic</string>
+				</dict>
+				<dict>
+					<key>VPNUUID</key>
+					<string>83A8720B-2BD5-4B7E-921D-3D9E312B4ACD</string>
+					<key>Identifier</key>
+					<string>com.tapbots.tweetbot4</string>
+					<key>SigningIdentifier</key>
+					<string>com.tapbots.tweetbot4</string>
+					<key>DesignatedRequirement</key>
+					<string>identifier &quot;com.tapbots.tweetbot4&quot; and anchor apple generic</string>
+				</dict>
+				<dict>
+					<key>VPNUUID</key>
+					<string>83A8720B-2BD5-4B7E-921D-3D9E312B4ACD</string>
+					<key>Identifier</key>
+					<string>com.burbn.instagram</string>
+					<key>SigningIdentifier</key>
+					<string>com.burbn.instagram</string>
+					<key>DesignatedRequirement</key>
+					<string>identifier &quot;com.burbn.instagram&quot; and anchor apple generic</string>
+				</dict>
+			</array>
 		</dict>
 	</array>
 	<key>PayloadDisplayName</key>
-	<string>appproxy</string>
+	<string>Surfing</string>
 	<key>PayloadIdentifier</key>
-	<string>rMBP.B30F6308-1016-43AF-B0AE-7C22AA195B71</string>
+	<string>rMBP.B30F6308-1016-43AF-B0AE-7C22AA195B72</string>
+	<key>PayloadOrganization</key>
+	<string>Apple</string>
 	<key>PayloadRemovalDisallowed</key>
 	<false/>
 	<key>PayloadType</key>
 	<string>Configuration</string>
 	<key>PayloadUUID</key>
-	<string>FE7BD40B-16C0-4212-A9D7-928E34184BBF</string>
+	<string>FE7BD40B-16C0-4212-A9D7-928E34184BB2</string>
 	<key>PayloadVersion</key>
-	<integer>1</integer>
+	<integer>2</integer>
 </dict>
 </plist>
